@@ -12,7 +12,7 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.function.Function;
 
-public class DoShiping {
+public class DoShipping {
 
     public static void main(String[] args) {
         InvoicingPath invoicePath = new InvoicingPath();
@@ -25,7 +25,6 @@ public class DoShiping {
                 invoicePath,
                 availabilityPath
         );
-
         System.out.println(costOfOrder.apply(configResult.getOrder()));
     }
 
